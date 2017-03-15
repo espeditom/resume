@@ -1,0 +1,41 @@
+body {
+	background: #1d5353;
+  color: green;
+  font-family: "Tahoma";
+  margin: 5;
+}
+
+h1{
+  color:whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #102d2d;
+
+}
+
+li{
+  float:left;
+}
+
+li a {
+    display: block;
+    color: #297a79;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: yellow;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #1d5353;
+    color: whitesmoke;
+}
