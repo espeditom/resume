@@ -1,12 +1,24 @@
 body {
-	background: #1d5353;
-  color: green;
-  font-family: "Tahoma";
+	background: #whitesmoke;
+  color: black;
+  font-family: Verdana;
   margin: 5;
 }
 
+.blurb{
+	text-align: right;
+	color: black;
+	font-size: 12px;
+	font-family: verdana;
+	margin-left: 75%;
+}
+
 h1{
-  color:whitesmoke;
+	text-align: right;
+  color:black;
+	font-size: 22px;
+	font-weight: lighter;
+	margin-left: 75%;
 }
 
 ul {
