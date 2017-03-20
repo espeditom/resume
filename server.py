@@ -14,4 +14,8 @@ def resume():
 def contact():
     return render_template('contact.html')
 
+@app.route('/inspiration')
+def inspiration():
+    return render_template('inspiration.html')
+
 app.run(debug = True)
