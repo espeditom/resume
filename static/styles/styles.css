@@ -1,100 +1,68 @@
-body {
-	/*background: #4d4d4d;*/
-	background:#9C9C9C;
-  color: black;
-  margin: 5;
-	font-family: 'Roboto', sans-serif;
-}
+body{
 
-
-.blurb{
-	text-align: right;
-	color: #E8F5FF;
-	font-size: 14px;
-	margin-right: 5%;
-
-
+  background-color: #1a1a1a;
+	color: #1963a2;
 
 }
 
 h1{
-	font-size: 45px;
-	color: #1963A2;
-	}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow:hidden;
-    background-color: #0d1526;
-		border-radius:2px;
-
+	color: #FFDC6F;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
 }
 
-li{
-  float:left;
+div.splash{
+
+	background-color: #1a1a1a;
+	width: 400px;
+	padding: 5px;
+	float: left;
+    margin-top:300px;
+    margin-left: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
 }
 
-li a {
-    display: block;
-    color: #AAB4BD;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+div.profpic{
+    overflow: hidden;
+	background-color: whitesmoke;
+	width: 401px;
+	padding:5px;
+    float: right;
+    margin-top:300px;
+    margin-right:500px;
 }
 
-li a.active {
-    background-color: yellow;
+img.prof{
+	width:400px;
+}
+
+.topnav {
+  margin: 0 auto;
+  background-color:#1a1a1a;
+  font-family: 'Ubuntu', sans-serif;
+  width: 400px;
+  height: 25px;
+}
+
+.topnav a {
+
+  color: #CC9A02;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topnav a:hover {
+  background-color: #3776AB;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
     color: white;
 }
 
-li a:hover:not(.active) {
-    background-color: #1a2a4c;
-    color: whitesmoke;
-}
-
-.sidebar{
-	margin-left:85%;
-	height:700px;
-	width:275px;
-	background-color: #2A2B2B;
-	border-radius:5px;
-
-}
-
-.profpic{
-	border-radius:10px;
-}
-
-.icons{
-
-	margin-left: 120px;
-	margin-top: 165%;
-	height:40px;
-	width: 200px;
-
-}
-
-a.imageLink{
-    text-decoration:none;
-}
-
-.location{
-	text-align: right;
-	color: #D54176;
-	font-size: 12px;
-	font-weight: bold;
-
-}
-
-.pin{
-	margin-left: 35%;
-}
-
-.inspiration{
-	background-color: black;
-	display:block;
-	margin: auto;
-
-}
+img.inspo{
+  object-fit: cover;
+  border-radius: 50%;
