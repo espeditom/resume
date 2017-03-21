@@ -1,7 +1,8 @@
 body{
-
+  width: 1000px;
   background-color: #1a1a1a;
 	color: #1963a2;
+  margin: 0px auto; 
 
 }
 
@@ -66,3 +67,5 @@ img.prof{
 img.inspo{
   object-fit: cover;
   border-radius: 50%;
+  
+}
